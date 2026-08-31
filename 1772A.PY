@@ -1,4 +1,5 @@
-t=int(input())
+t = int(input())
+
 for _ in range(t):
-    s=input()
-    print(eval(s))
+    a, b = map(int, input().split('+'))
+    print(a + b)
